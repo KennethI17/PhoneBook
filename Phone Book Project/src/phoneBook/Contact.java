@@ -247,10 +247,11 @@ public class Contact {
 	}
 	public static void returnMenu() {
 		System.out.println("*****************************************");
-		System.out.println("Go back to Main Menu? Yes or No");
+		System.out.println("Go back to Main Menu?"
+				+ "\nEnter any key for Yes or enter No to exit: ");
 		String c = Index.input.next();
 		if (c.equalsIgnoreCase("no")) {
-			System.out.println("Exiting......");
+			System.out.println("Exiting..... Have a good day!");
 			Index.loop = true;	
 		}
 	}
